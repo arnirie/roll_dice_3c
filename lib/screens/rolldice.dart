@@ -48,7 +48,7 @@ class _RollDiceScreenState extends State<RollDiceScreen> {
               ),
               if (activeDiceFace > 3)
                 Text(
-                  'Congrats! You got ${activeDiceFace + 1}',
+                  'Yehey! You got ${activeDiceFace + 1}',
                   style: const TextStyle(
                     color: Colors.amber,
                     fontSize: 20,
